@@ -1,0 +1,77 @@
+/**
+ *
+ * base styles,
+ * normalize elements
+ *
+**/
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 1.2rem;
+    line-height: 125%;
+    color: #1C1414;
+    background-color: #F6F6F6;
+    padding-bottom: 2%;
+    font-family: 'Arial', 'Tahoma', sans-serif;
+}
+
+input,
+textarea,
+select,
+option {
+    font-family: 'Arial', 'Tahoma', sans-serif;
+    color: #1C1414;
+    margin: 0;
+    border: 1px solid #E5E1E2;
+    padding: 0.3%;
+}
+
+input[type="radio"] {
+    outline: none;
+    border: none;
+}
+
+table td {
+    padding: 1%;
+}
+
+table tr:nth-of-type(even) {
+    background-color: #f9f9f9
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+h4 {
+    font-size: 125%;
+}
+
+h5 {
+    font-size: 100%;
+}
+
+h6 {
+    font-size: 75%;
+}
+
+a {
+    color: #504B45;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
